@@ -1,16 +1,11 @@
 
 /**
- * Each position in the Array for game board
+ * Write a description of interface Spot here.
  * 
- * @Basit Malik 
- * v0.0.1
+ * @author (your name) 
+ * @version (a version number or a date)
  */
-public class Spot
+public interface Spot
 {
-    private boolean containsShip;
-    private Ship battleShip;
-    public Spot()
-    {
-        
-    }
+    public 
 }
