@@ -9,4 +9,8 @@ public class Ship
 {
     private int len;
     private int hitCtr;
+    public Ship(int length)
+    {
+        len=length;
+    }
 }

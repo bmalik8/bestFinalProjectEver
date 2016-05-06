@@ -9,5 +9,8 @@ public class Spot
 {
     private boolean containsShip;
     private Ship battleShip;
-    public Spot
+    public Spot()
+    {
+        
+    }
 }
