@@ -5,7 +5,7 @@
  * @Basit Malik 
  * v0.0.1
  */
-public class BoardSpot implements Spot
+public class BoardSpot
 {
     private boolean containsShip;
     private Ship battleShip;
