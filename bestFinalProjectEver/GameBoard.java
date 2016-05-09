@@ -10,9 +10,11 @@ public class Gameboard
     
     public void placeShip(int x, int y, Ship ship)
     {
+        /*
         if (ship.getIsVert)
         {
             board[x][y]=new Spot(
         }
+        */
     }
 }
