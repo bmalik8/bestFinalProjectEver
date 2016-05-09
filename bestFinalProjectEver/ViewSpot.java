@@ -5,7 +5,11 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public interface Spot
+public class ViewSpot
 {
-    public 
+    private boolean hit;
+    public ViewSpot(boolean h)
+    {
+        hit=h;
+    }
 }
