@@ -1,33 +1,18 @@
-
-/**
- * Write a description of class GameBoard here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class GameBoard
+public class Gameboard
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class GameBoard
-     */
-    public GameBoard()
+    private Spot[][] board;
+    int shipsSunken;
+    public Gameboard(Spot[][] table)
     {
-        // initialise instance variables
-        x = 0;
+        table=board;
+        shipsSunken=0;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public void placeShip(int x, int y, Ship ship)
     {
-        // put your code here
-        return x + y;
+        if (ship.getIsVert)
+        {
+            board[x][y]=new Spot(
+        }
     }
 }

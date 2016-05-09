@@ -41,12 +41,12 @@ public class Ship
         return len;
     }
     
-    public boolean isSunken()
+    public boolean getIsSunken()
     {
         return isSunken;
     }
     
-    public boolean isVert()
+    public boolean getIsVert()
     {
         return isVert;
     }
