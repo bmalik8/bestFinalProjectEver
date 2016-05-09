@@ -5,4 +5,19 @@ public class Player
 {
     private int numShips;
     
+    public Player()
+    {
+        numShips= 5;
+        
+    }
+    
+    public int getNumShips()
+    {
+        return numShips;
+    }
+    
+    public takeShot(int x, int y)
+    {
+        
+    }
 }
