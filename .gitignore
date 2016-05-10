@@ -7,8 +7,8 @@ package.bluej
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-.ctxt
-.class
+*.ctxt
+*.class
 # Package Files #
 *.jar
 *.war
